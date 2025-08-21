@@ -7,6 +7,7 @@ import Hero from "@/components/Hero";
 import ProductGrid from "@/components/ProductGrid";
 import Cart from "@/components/Cart";
 import ProductReviews from "@/components/ProductReviews";
+import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -299,6 +300,8 @@ const Index = () => {
         onRemoveItem={handleRemoveItem}
         onCheckout={handleCheckout}
       />
+
+      <Footer />
     </div>
   );
 };

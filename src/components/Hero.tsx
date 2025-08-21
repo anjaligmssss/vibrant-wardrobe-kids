@@ -32,22 +32,6 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <Button 
-              size="lg" 
-              className="bg-gradient-primary hover:shadow-primary transition-all duration-300 transform hover:scale-105"
-            >
-              Shop Now
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-2 border-secondary/50 hover:bg-secondary/10 hover:border-secondary"
-            >
-              View Collections
-            </Button>
-          </div>
 
           {/* Features */}
           <div className="grid grid-cols-3 gap-4 pt-8">
